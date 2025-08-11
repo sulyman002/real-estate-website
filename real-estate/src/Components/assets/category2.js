@@ -6,37 +6,43 @@ import apartments from "../assets/apartments.jpg"
 
 let Category2 = [
   {
+    "id": 1,
     "image": skyper,
-    "title": "Skyper Pool Apartment",
+    "name": "Skyper Pool Apartment",
     "location": "1020 Bloomingdale Ave",
     "price": "$280,000",
     "status": "For Sale"
     
   },
   {
+    "id": 2,
     "image": north,
-    "title": "North Dillard Street",
+    "name": "North Dillard Street",
     "location": "4330 Bell Shoals Rd",
     "price": "$250/month",
     "status": "For Rent"
     
   },
   {
+    "id": 3,
     "image": eaton,
-    "title": "Eaton Garth Penthouse",
+    "name": "Eaton Garth Penthouse",
     "location": "7722 18th Ave, Brooklyn",
     "price": "$180,000",
     "status": "For Sale",
-    "featured": true
+    "featured": "featured"
     
   },
   {
+    "id": 4,
     "image": apartments,
-    "title": "New Apartment Nice View",
+    "name": "New Apartment Nice View",
     "location": "42 Avenue O, Brooklyn",
     "price": "$300,000", 
     "status": "For Rent",
-    "featured": true
+    "featured": "featured"
     
   }
 ]
+
+export default Category2;
