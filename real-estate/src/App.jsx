@@ -2,11 +2,13 @@ import React from 'react'
 import { HeroSection } from './Components/HeroSection/HeroSection.jsx';
 import { Feature1 } from './Components/Feature1/Feature1.jsx';
 import { Feature2 } from './Components/Feature2/Feature2.jsx';
-import { WhyShould } from './Components/WhyShould/WhyShould.jsx'
+import { WhyShould } from './Components/WhyShould/WhyShould.jsx';
 import { Discover } from './Components/Discover/Discover.jsx';
 import { VillaOne } from './Components/VillaOne/VillaOne.jsx';
 import { OurCustomers } from './Components/OurCustomers/OurCustomers.jsx';
-import { Exclusive } from './Components/Exclusive/Exclusive.jsx'
+import { Exclusive } from './Components/Exclusive/Exclusive.jsx';
+import { RealEstate } from './Components/RealEstate/RealEstate.jsx'
+
 
 function App() {
 
@@ -20,6 +22,7 @@ function App() {
       <VillaOne />
       <OurCustomers />
       <Exclusive />
+      <RealEstate />
 
     
     </>
