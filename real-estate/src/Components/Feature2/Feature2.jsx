@@ -8,51 +8,57 @@ import right_arrow from "../assets/right_arrow.svg";
 export const Feature2 = () => {
   return (
     <>
-      <div className="pr-[12.5vw]">
-        <div className="">
-          <h2 className="text-[40px] text-[#1A1A1A] text-bold">
-            Featured Categories
-          </h2>
+      <div className=" w-full flex flex-col justify-center bg-[#F9F9F9] py-30">
+        <div className="flex justify-center items-center">
+          <div className="w-[75vw] ">
+            <h2 className="text-[40px] text-[#1A1A1A] text-bold">
+              Featured Categories
+            </h2>
 
-          <div className="flex justify-between items-center py-2">
-            <p className="text-[17px] text-[#1A1A1A]">
-              Lorem ipsum dolor sit amer
-            </p>
+            <div className="flex justify-between items-center py-4">
+              <p className="text-[17px] text-[#1A1A1A]">
+                Lorem ipsum dolor sit amer
+              </p>
 
-            <div className="flex text-[15px] gap-2">
-              <span className="text-[#1A1A1A]"> View All Category </span>{" "}
-              <img
-                className="fill-current text-white"
-                src={arrow_left_icon}
-                alt=""
-              />
+              <div className="flex text-[15px] gap-2">
+                <span className="text-[#1A1A1A]"> View All Category </span>{" "}
+                <img
+                  className="fill-current text-white"
+                  src={arrow_left_icon}
+                  alt=""
+                />
+              </div>
             </div>
           </div>
+        </div>
 
-          <div>
-            {Category2.map((item, index) => {
-              return (
-                <CategoryItem2
-                  key={index}
-                  id={item.id}
-                  image={item.image}
-                  name={item.name}
-                  price={item.price}
-                  featured={item.true}
-                />
-              );
-            })}
-          </div>
+        <div className="flex pl-[12vw]  gap-4 overflow-hidden">
+          {Category2.map((item, index) => {
+            return (
+              <CategoryItem2
+                key={index}
+                id={item.id}
+                image={item.image}
+                name={item.name}
+                location={item.location}
+                price={item.price}
+                featured={item.featured}
+              />
+            );
+          })}
+        </div>
 
-          <div className="flex items-center gap-4 mt-6">
-            <div className="px-4 py-2 rounded-full text-black">
+        <div className="w-full flex justify-center items-center mt-6">
+          <div className="w-[75vw]  flex items-center gap-2">
+            <div className="w-[60px] h-[40px] bg-white flex items-center justify-center shadow-2xl rounded-full text-black cursor-pointer ">
               <img src={left_arrow} alt="" />
             </div>
-            <div className="px-4 py-2 rounded-full text-black">
+            <div className="w-[60px] h-[40px] bg-white flex items-center justify-center shadow-2xl rounded-full text-black cursor-pointer ">
               <img src={right_arrow} alt="" />
             </div>
           </div>
         </div>
+        
       </div>
     </>
   );

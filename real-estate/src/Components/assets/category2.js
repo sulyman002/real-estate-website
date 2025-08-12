@@ -11,8 +11,8 @@ let Category2 = [
     "name": "Skyper Pool Apartment",
     "location": "1020 Bloomingdale Ave",
     "price": "$280,000",
-    "status": "For Sale"
-    
+    "status": "For Sale",
+    "featured": false,
   },
   {
     "id": 2,
@@ -20,7 +20,8 @@ let Category2 = [
     "name": "North Dillard Street",
     "location": "4330 Bell Shoals Rd",
     "price": "$250/month",
-    "status": "For Rent"
+    "status": "For Rent",
+    "featured": false,
     
   },
   {
@@ -30,7 +31,7 @@ let Category2 = [
     "location": "7722 18th Ave, Brooklyn",
     "price": "$180,000",
     "status": "For Sale",
-    "featured": "featured"
+    "featured": true,
     
   },
   {
@@ -40,7 +41,7 @@ let Category2 = [
     "location": "42 Avenue O, Brooklyn",
     "price": "$300,000", 
     "status": "For Rent",
-    "featured": "featured"
+    "featured": true,
     
   }
 ]
