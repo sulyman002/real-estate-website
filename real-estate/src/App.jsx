@@ -5,6 +5,8 @@ import { Feature2 } from './Components/Feature2/Feature2.jsx';
 import { WhyShould } from './Components/WhyShould/WhyShould.jsx'
 import { Discover } from './Components/Discover/Discover.jsx';
 import { VillaOne } from './Components/VillaOne/VillaOne.jsx';
+import { OurCustomers } from './Components/OurCustomers/OurCustomers.jsx';
+import { Exclusive } from './Components/Exclusive/Exclusive.jsx'
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
       <WhyShould />
       <Discover />
       <VillaOne />
+      <OurCustomers />
+      <Exclusive />
 
     
     </>
