@@ -4,10 +4,9 @@ import arrow_left_icon from "../assets/arrow_left_icon.svg";
 
 export const HeroContent = () => {
   return (
-    <>
       <div className="flex justify-center py-[220px]">
-        <div className="w-[75vw] flex flex-col gap-3">
-          <h1 className="text-[60px] font-bold w-[35vw] leading-[60px] tracking-wider">
+        <div className="px-4 md:w-[75vw]  flex flex-col gap-3">
+          <h1 className="text-[60px] font-bold lg:w-[35vw] leading-[60px] tracking-wider pt-5">
             The <span className="text-[#E7C873]">#1</span> site real estate
             professionals trust*
           </h1>
@@ -22,9 +21,6 @@ export const HeroContent = () => {
           </div>
         </div>
       </div>
-     
-
-      {/* <LastContent /> */}
-    </>
+    
   );
 };

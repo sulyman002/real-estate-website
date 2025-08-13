@@ -9,10 +9,10 @@ import arrow_left_black from "../assets/arrow_left_black.svg";
 export const VillaOne = () => {
   return (
     <div className="w-full flex justify-center items-center py-40">
-      <div className="flex w-[75vw] h-[700px] rounded-[15px]">
+      <div className="flex flex-col gap-6 xl:flex-row w-[75vw] h-[700px] rounded-[15px]">
         <div
           style={{ backgroundImage: `url(${villa_one_image})` }}
-          className="h-full flex-1 w-full rounded-[15px]"
+          className="h-[700px]  flex-1 w-full rounded-[15px]"
         >
           <div className="flex pt-6 pl-6 gap-3">
             <p className="text-[13px] rounded-full bg-[#1F4B43] px-3 py-[3px] cursor-pointer">
@@ -35,7 +35,7 @@ export const VillaOne = () => {
               2050 Bloomingdale Ave
             </p>
           </div>
-          <p className="text-[16px] leading-[30.4px] w-[545px]">
+          <p className="text-[16px] leading-[30.4px] ">
             Enchanting three bedroom, three bath home with spacious one bedroom,
             one bath cabana, in-laws quarters. Charming living area features
             fireplace and fabulous art deco details. ...

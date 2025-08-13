@@ -38,11 +38,11 @@ export const OurCustomers = () => {
   return (
     <div className="w-full flex justify-center items-center py-30">
       <div className=" w-[75vw] flex flex-col gap-6">
-        <div className="text-[#1A1A1A] flex justify-between">
+        <div className="text-[#1A1A1A] flex items-center flex-col lg:flex-row gap-6 lg:justify-between">
           <p className="font-500 text-[40px] leading-[52px] w-[450px]">
             What our customers are saying us?
           </p>
-          <div className="flex gap-12  pr-8">
+          <div className="flex lg:gap-12 gap-30 pr-8">
             <div className="flex flex-col justify-start">
               <p className="text-[26px] font-medium font-500 leading-[33.8px]">
                 10m+
@@ -65,7 +65,7 @@ export const OurCustomers = () => {
           </div>
         </div>
 
-        <div className="flex justify-between">
+        <div className="flex flex-col items-center lg:flex-row gap-4 justify-between">
           {Customers.map((customer, index) => {
             return (
               <div

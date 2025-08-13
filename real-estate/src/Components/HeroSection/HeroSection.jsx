@@ -6,7 +6,7 @@ import { LastContent } from "../HeroSectionLastContent/LastContent.jsx";
 
 export function HeroSection() {
   return (
-    <div style={{backgroundImage: `url(${backgroundImage})` }} className="bg-cover h-screen relative">
+    <div style={{backgroundImage: `url(${backgroundImage})` }} className="bg-cover">
         <NavBar />
         <HeroContent />
         <LastContent />

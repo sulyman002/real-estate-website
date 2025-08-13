@@ -15,7 +15,7 @@ export function WhyShould() {
         </p>
       </div>
 
-      <div className="flex justify-center gap-10 py-10 items-center">
+      <div className="flex flex-col lg:flex-row justify-center gap-10 py-10 items-center">
         <div className="flex flex-col items-center justify-center gap-4">
           <div>
             <img src={wide_icon} alt="" />

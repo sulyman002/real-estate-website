@@ -8,7 +8,8 @@ import right_arrow from "../assets/right_arrow.svg";
 export const Feature2 = () => {
   return (
     <>
-      <div className=" w-full flex flex-col justify-center bg-[#F9F9F9] py-30">
+      {/* w-full flex flex-col justify-center bg-[#F9F9F9] py-30 */}
+      <div className="py-30 flex flex-col flex-wrap">
         <div className="flex justify-center items-center">
           <div className="w-[75vw] ">
             <h2 className="text-[40px] text-[#1A1A1A] text-bold">
