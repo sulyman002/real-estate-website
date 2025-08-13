@@ -10,14 +10,14 @@ export const StayUpToDate = () => {
         <div className="flex items-center justify-center h-[60px] w-[60px] rounded-full bg-[#E7C873]">
           <img src={kite} alt="" />
         </div>
-        <p className="font-500 text-[40px] py-4 leading-[40px] font-bold">
+        <p className="font-500 text-[20px] md:text-[40px] py-4 leading-[40px] font-bold">
           Stay Up to Date
         </p>
-        <p className="font-400 text-[15px] leading-[28.5px]">
+        <p className="flex items-center w-[200px] md:w-full text-center font-400 text-[15px] leading-[28.5px]">
           Subscribe to our newsletter to receive our weekly feed.
         </p>
 
-        <div class="flex items-center my-6 bg-white shadow-2xl rounded-full overflow-hidden w-[570px]">
+        <div class="flex items-center my-6 bg-white shadow-2xl rounded-full overflow-hidden w-[90%] md:w-[60%] lg:w-[40%]">
           <input
             type="email"
             placeholder="Your e-mail"

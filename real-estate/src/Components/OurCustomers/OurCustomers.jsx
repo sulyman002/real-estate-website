@@ -104,7 +104,7 @@ export const OurCustomers = () => {
         <div className="mt-30">
             <div className="flex flex-col items-center justify-center w-full">
                 <p className="text-[17px] font-400 leading-[32.3px] text-[#1A1A1A] py-6">Thousands of world’s leading companies trust Space</p>
-                <div className="flex justify-between px-20 items-center w-full mt-4">
+                <div className="flex flex-col gap-6 md:flex-row justify-between px-20 items-center w-full mt-4">
                     <img src={amazon} alt="" className=" lg:w-[99px] w-[50px] h-[20px] lg:h-[31px]"/>
                     <img src={amd} alt="" className=" lg:w-[99px]  lg:h-[31px] w-[50px] h-[20px]"/>
                     <img src={cisco} alt="" className=" lg:w-[99px]  lg:h-[31px] w-[50px] h-[20px]"/>

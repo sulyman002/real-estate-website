@@ -2,12 +2,12 @@ import React from "react";
 import categoryData from "../assets/category";
 import arrow_left_icon from "../assets/arrow_left_icon.svg";
 // import CategoryItem from "../categoryItem/CategoryItem";
-import { CategoryItem } from "../categoryItem/categoryItem";
+import { CategoryItem } from "../categoryItem/categoryItem.jsx";
 
 export const Feature1 = () => {
   return (
     <>
-      <div className=" bg-red-400 px-10 md:px-20 lg:px-40 xl:px-60 py-24">
+      <div className="  px-10 md:px-20 lg:px-40 xl:px-60 py-24">
         <div className="">
           <h2 className="text-[30px] lg:text-[40px] text-[#1A1A1A] text-bold">Featured Categories</h2>
           

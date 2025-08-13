@@ -8,8 +8,8 @@ import arrow_up from "../assets/arrow_up.svg"
 
 export const Rooter = () => {
   return (
-    <div className="relative h-[117px] flex items-center justify-center bg-[#F2F1F1]">
-      <div className="flex items-center justify-center gap-60">
+    <div className="relative h-auto py-8 flex items-center justify-center bg-[#F2F1F1]">
+      <div className="flex flex-col items-center md: justify-center md:flex-row gap-10 md:gap-16 lg:gap-60">
         <div className="text-[#1A1A1A] text-[15px] leading-[28.5px]">Copyright © 2024. JustHome</div>
         <div>
           {" "}
