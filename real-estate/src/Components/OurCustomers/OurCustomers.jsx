@@ -39,7 +39,7 @@ export const OurCustomers = () => {
     <div className="w-full flex justify-center items-center py-30">
       <div className=" w-[75vw] flex flex-col gap-6">
         <div className="text-[#1A1A1A] flex items-center flex-col lg:flex-row gap-6 lg:justify-between">
-          <p className="font-500 text-[40px] leading-[52px] w-[450px]">
+          <p className="items-center text-[30px] flex font-500 md:text-[40px] leading-[52px] md:w-[450px]">
             What our customers are saying us?
           </p>
           <div className="flex lg:gap-12 gap-30 pr-8">
@@ -70,7 +70,7 @@ export const OurCustomers = () => {
             return (
               <div
                 key={index}
-                className="w-[447px] text-[#1A1A1A] rounded-lg bg-[#F9F9F9] p-6 flex flex-col"
+                className=" text-[#1A1A1A] rounded-lg bg-[#F9F9F9] p-6 flex flex-col"
               >
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-6">
@@ -105,12 +105,12 @@ export const OurCustomers = () => {
             <div className="flex flex-col items-center justify-center w-full">
                 <p className="text-[17px] font-400 leading-[32.3px] text-[#1A1A1A] py-6">Thousands of world’s leading companies trust Space</p>
                 <div className="flex justify-between px-20 items-center w-full mt-4">
-                    <img src={amazon} alt="" className="w-[99px] h-[31px]"/>
-                    <img src={amd} alt="" className="w-[99px] h-[31px]"/>
-                    <img src={cisco} alt="" className="w-[99px] h-[31px]"/>
-                    <img src={dropcam} alt="" className="w-[99px] h-[31px]"/>
-                    <img src={logitech} alt="" className="w-[99px] h-[31px]"/>
-                    <img src={spotify} alt="" className="w-[99px] h-[31px]"/>
+                    <img src={amazon} alt="" className=" lg:w-[99px] w-[50px] h-[20px] lg:h-[31px]"/>
+                    <img src={amd} alt="" className=" lg:w-[99px]  lg:h-[31px] w-[50px] h-[20px]"/>
+                    <img src={cisco} alt="" className=" lg:w-[99px]  lg:h-[31px] w-[50px] h-[20px]"/>
+                    <img src={dropcam} alt="" className=" lg:w-[99px]  lg:h-[31px] w-[50px] h-[20px]"/>
+                    <img src={logitech} alt="" className=" lg:w-[99px]  lg:h-[31px] w-[50px] h-[20px]"/>
+                    <img src={spotify} alt="" className=" lg:w-[99px]  lg:h-[31px] w-[50px] h-[20px]"/>
                 </div>
             </div>
 

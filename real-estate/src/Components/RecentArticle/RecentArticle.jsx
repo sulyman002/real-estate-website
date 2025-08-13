@@ -35,8 +35,8 @@ export const RecentArticle = () => {
   ];
 
   return (
-    <div className="flex items-center justify-center py-40">
-      <div className="w-[75vw]">
+    <div className="flex items-center justify-center py-40 ">
+      <div className="w-[75vw] flex items-center flex-col ">
         
         <div className="flex justify-center items-center">
           <div className="w-[75vw]">
@@ -44,12 +44,12 @@ export const RecentArticle = () => {
               Recent Articles & News
             </h2>
 
-            <div className="flex justify-between items-center py-4">
+            <div className="flex justify-center flex-col md:flex-row md:justify-between items-start md:items-center py-4">
               <p className="text-[17px] text-[#1A1A1A]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
 
-              <div className="flex text-[15px] gap-2">
+              <div className="flex items-center text-[15px] gap-2">
                 <span className="text-[#1A1A1A]"> View All News</span>{" "}
                 <img
                   className="fill-current text-white"
@@ -60,11 +60,11 @@ export const RecentArticle = () => {
             </div>
           </div>
         </div>
-
-        <div className="text-[#1A1A1A] flex w-[75vw] justify-between"> 
+          text-[#1A1A1A] flex justify-center items-center lg:flex-row lg:flex w-[75vw] md:grid md:grid-cols-2 gap-6 lg:justify-between
+        <div className="text-[#1A1A1A] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 w-[75vw]"> 
           {news.map((item) => {
             return (
-              <div className="w-[328px] rounded-[16px] bg-white shadow-2xl py-4">
+              <div className="w-[328px] rounded-[16px] h-full bg-white shadow-2xl py-4">
                 <div>
                   <div className="rounded-t-lg"> 
                     <img src={item.image} alt="" className="rounded-t-lg"/>

@@ -6,12 +6,12 @@ import agent from "../assets/agent.png";
 export const RealEstate = () => {
   return (
     <div className="flex bg-[#F9F9F9] py-40 items-center justify-center">
-      <div className="grid grid-cols-2 w-[75vw]">
-        <div className="text-[#1A1A1A] flex flex-col justify-center">
-          <p className="text-[40px] leading-[52px] font-500 w-[390px]">
+      <div className="flex flex-col gap-16 items-center justify-center lg:grid lg:grid-cols-2 w-[75vw]">
+        <div className="text-[#1A1A1A] flex flex-1 flex-col justify-center">
+          <p className="text-[40px] leading-[52px] font-500 ">
             Become a Real Estate Agent
           </p>
-          <p className="text-[16px] leading-[30.4px] font-400 w-[436.8px] py-4">
+          <p className="text-[16px] leading-[30.4px] font-400 md:w-[400px] py-4">
             Pellentesque egestas elementum egestas faucibus sem. Velit nunc
             egestas ut morbi. Leo diam diam.
           </p>
@@ -33,7 +33,7 @@ export const RealEstate = () => {
           </div>
         </div>
 
-        <div className="flex justify-end">
+        <div className="flex flex-1 justify-end">
           <img src={agent} alt="" />
         </div>
       </div>

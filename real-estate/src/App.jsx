@@ -9,7 +9,7 @@ import { OurCustomers } from "./Components/OurCustomers/OurCustomers.jsx";
 import { Exclusive } from "./Components/Exclusive/Exclusive.jsx";
 import { RealEstate } from "./Components/RealEstate/RealEstate.jsx";
 import { RecentArticle } from "./Components/RecentArticle/RecentArticle.jsx";
-import { StartToday } from "./Components/StartToday/StartToday.jsx";
+// import { StartToday } from "./Components/StartToday/StartToday.jsx";
 import { StayUpToDate } from "./Components/StayUpToDate/StayUpToDate.jsx"
 import { Rooter } from "./Components/Rooter/Rooter.jsx"
 
@@ -26,7 +26,7 @@ function App() {
       <Exclusive />
       <RealEstate />
       <RecentArticle />
-      <StartToday />
+      {/* <StartToday /> */}
       <StayUpToDate />
       <Rooter />
     </>

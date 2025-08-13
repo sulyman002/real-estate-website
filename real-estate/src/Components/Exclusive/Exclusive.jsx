@@ -19,10 +19,10 @@ export const Exclusive = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         </div>
-        <div className="grid grid-cols-2">
+        <div className="flex gap-8 flex-col justify-center xl:grid xl:grid-cols-2">
           <div
             style={{ backgroundImage: `url(${hyde})` }}
-            className="h-[700px] bg-cover bg-no-repeat flex-1 w-[685px] rounded-[15px]"
+            className="h-[700px] xl:h-[700px] bg-cover bg-no-repeat xl:flex-1  rounded-[15px]"
           >
             <div className="flex pt-6 pl-6 gap-3">
               <p className="text-[13px] rounded-full bg-[#1F4B43] px-3 py-[3px] cursor-pointer">
@@ -52,10 +52,10 @@ export const Exclusive = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-2">
+            <div className="grid gap-4 grid-cols-2">
               <div
                 style={{ backgroundImage: `url(${liv_video})` }}
-                className="w-[325.53px] h-[331.44px] flex items-center justify-center rounded-[16px]"
+                className="bg-no-repeat bg-cover h-[331.44px] flex items-center justify-center rounded-[16px]"
               >
                 <div className="h-[60px] w-[60px] rounded-full flex items-center justify-center bg-black/20 backdrop-blur-1xl ">
                   <img
@@ -71,7 +71,7 @@ export const Exclusive = () => {
                   <p className="font-400 text-[19px] leading-[34.2px]">
                     Properties
                   </p>
-                  <p className="font-400 text-[15px] leading-[28.5px] w-[267px] py-4">
+                  <p className="font-400 text-[15px] leading-[28.5px]  py-4">
                     Explore our wide variety of properties to fid your dream
                     home today
                   </p>

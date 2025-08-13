@@ -33,7 +33,7 @@ export const Feature2 = () => {
           </div>
         </div>
 
-        <div className="flex pl-[12vw]  gap-4 overflow-hidden">
+        <div className="flex pl-[12vw] bg-red-400  gap-4 overflow-hidden ">
           {Category2.map((item, index) => {
             return (
               <CategoryItem2

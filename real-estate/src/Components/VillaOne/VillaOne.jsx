@@ -25,7 +25,7 @@ export const VillaOne = () => {
           </div>
         </div>
 
-        <div className="flex flex-col flex-1 text-[#1A1A1A] justify-center pl-30">
+        <div className="flex flex-col flex-1 text-[#1A1A1A] justify-center lg:pl-30">
           <h2 className="font-500 text-[40px] leading-[48px] font-bold">
             Villa One Hyde Park
           </h2>

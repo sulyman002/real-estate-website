@@ -1,6 +1,7 @@
 import React from "react";
 import categoryData from "../assets/category";
 import arrow_left_icon from "../assets/arrow_left_icon.svg";
+// import CategoryItem from "../categoryItem/CategoryItem";
 import { CategoryItem } from "../categoryItem/categoryItem";
 
 export const Feature1 = () => {
