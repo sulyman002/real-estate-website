@@ -13,7 +13,7 @@ export const StayUpToDate = () => {
         <p className="font-500 text-[20px] md:text-[40px] py-4 leading-[40px] font-bold">
           Stay Up to Date
         </p>
-        <p className="flex items-center w-[200px] md:w-full text-center font-400 text-[15px] leading-[28.5px]">
+        <p className="flex items-center   text-center font-400 text-[15px] leading-[28.5px]">
           Subscribe to our newsletter to receive our weekly feed.
         </p>
 

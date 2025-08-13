@@ -23,8 +23,7 @@ export const Feature1 = () => {
               />
             </div>
           </div>
-            {/* flex-col lg:grid lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 md:grid md:grid-cols-2  py-4 gap-4 flex lg:justify-between lg:items-center */}
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 lg:overflow-hidden">
+          <div className="flex flex-col gap-4 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
             {categoryData.map((item, index) => {
               return (
                 <CategoryItem

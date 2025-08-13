@@ -64,10 +64,10 @@ export const RecentArticle = () => {
         <div className="text-[#1A1A1A] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 w-[75vw]"> 
           {news.map((item) => {
             return (
-              <div className="w-[328px] rounded-[16px] h-full bg-white shadow-2xl py-4">
+              <div className=" rounded-[16px] h-full bg-white shadow-2xl py-4">
                 <div>
                   <div className="rounded-t-lg"> 
-                    <img src={item.image} alt="" className="rounded-t-lg"/>
+                    <img src={item.image} alt="" className="rounded-t-lg w-full h-full"/>
                   </div>
                   <div className="flex flex-col items-center p-4">
                     <p className="text-[15px] leading-[28.5px] font-400">{item.type + "." + item.date}</p>
