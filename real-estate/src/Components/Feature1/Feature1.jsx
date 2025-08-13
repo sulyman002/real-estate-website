@@ -1,8 +1,8 @@
 import React from "react";
-import categoryData from "../assets/category";
+// import categoryData from "../assets/category";
 import arrow_left_icon from "../assets/arrow_left_icon.svg";
 // import CategoryItem from "../categoryItem/CategoryItem";
-import { CategoryItem } from "../categoryItem/categoryItem.jsx";
+// import { CategoryItem } from "../categoryItem/categoryItem.jsx";
 
 export const Feature1 = () => {
   return (
@@ -26,7 +26,7 @@ export const Feature1 = () => {
           </div>
             {/* flex-col lg:grid lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 md:grid md:grid-cols-2  py-4 gap-4 flex lg:justify-between lg:items-center */}
           <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 lg:overflow-hidden">
-            {categoryData.map((item, index) => {
+            {/* {categoryData.map((item, index) => {
               return (
                 <CategoryItem
                   key={index}
@@ -35,7 +35,7 @@ export const Feature1 = () => {
                   properties={item.properties}
                 />
               );
-            })}
+            })} */}
           </div>
         </div>
       </div>
