@@ -8,10 +8,8 @@ import right_arrow from "../assets/right_arrow.svg";
 export const Feature2 = () => {
   return (
     <>
-      {/* w-full flex flex-col justify-center bg-[#F9F9F9] py-30 */}
-      {/* <div className="xl:flex xl:items-center xl:justify-end"> */}
-      {/* xl:w-[84vw] */}
-        <div className="py-20 md:py-30 flex flex-col flex-wrap">
+      
+        <div className="py-20 md:py-30 flex flex-col bg-[#F9F9F9] flex-wrap">
         <div className="">
 
 
@@ -76,7 +74,7 @@ export const Feature2 = () => {
         </div>
         
       </div>
-      {/* </div> */}
+      
       
     </>
   );
