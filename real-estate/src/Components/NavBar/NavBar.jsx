@@ -14,7 +14,7 @@ const [isClick, setIsclick] = useState(false);
         <img src={logo_icon} alt="" />
       </div>
 
-      <div>
+      <div className="text-white">
         <div className="cursor-pointer lg:hidden" onClick={() => setIsclick(true)}>
           <img src={hamburger_icon} alt="" />
         </div>
@@ -29,7 +29,7 @@ const [isClick, setIsclick] = useState(false);
         </ul>
       </div>
 
-      <div className="gap-8 items-center text-[16px] hidden lg:flex">
+      <div className="gap-8 items-center text-white text-[16px] hidden lg:flex">
         <div className="flex gap-2 items-center sm:hidden">
           <img src={dial_icon} alt="" />
           <span>+68 685 88666</span>

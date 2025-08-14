@@ -7,7 +7,9 @@ import sqft_icon from "../assets/sqft_icon.svg";
 export const CategoryItem2 = (props) => {
   return (
     <div>
-      <div className="bg-white rounded-lg shadow-md h-[452.8px] w-[447px]">
+
+       {/* <div className="bg-white rounded-lg shadow-md h-[452.8px] w-[447px]"></div> */}
+      <div className=" rounded-lg shadow-md " >
         <div
           style={{ backgroundImage: `url(${props.image})` }}
           className="h-[297px] w-full bg-cover rounded-lg"

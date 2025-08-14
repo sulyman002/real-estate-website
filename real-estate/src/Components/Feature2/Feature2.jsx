@@ -9,22 +9,29 @@ export const Feature2 = () => {
   return (
     <>
       {/* w-full flex flex-col justify-center bg-[#F9F9F9] py-30 */}
-      <div className="py-30 flex flex-col flex-wrap">
-        <div className="flex justify-center items-center">
-          <div className="w-[75vw] ">
-            <h2 className="text-[40px] text-[#1A1A1A] text-bold">
+      {/* <div className="xl:flex xl:items-center xl:justify-end"> */}
+      {/* xl:w-[84vw] */}
+        <div className="py-20 md:py-30 flex flex-col flex-wrap">
+        <div className="">
+
+
+
+
+          {/* here */}
+          <div className=" flex flex-col px-10 md:px-20 xl:px-50 lg:px-30">
+            <h2 className="text-[30px] md:text-[40px] text-[#1A1A1A] text-bold">
               Featured Categories
             </h2>
 
-            <div className="flex justify-between items-center py-4">
+            <div className="flex gap-3 flex-col md:flex-row md:justify-between md:items-center py-4">
               <p className="text-[17px] text-[#1A1A1A]">
                 Lorem ipsum dolor sit amer
               </p>
 
-              <div className="flex text-[15px] gap-2">
-                <span className="text-[#1A1A1A]"> View All Category </span>{" "}
+              <div className="flex text-[15px] gap-3">
+                <span className="text-[#1A1A1A] "> View All Category </span>{" "}
                 <img
-                  className="fill-current text-white"
+                  className="fill-current text-white w-5"
                   src={arrow_left_icon}
                   alt=""
                 />
@@ -33,7 +40,12 @@ export const Feature2 = () => {
           </div>
         </div>
 
-        <div className="flex pl-[12vw]   gap-4 overflow-hidden ">
+
+
+
+
+        {/* here */}
+        <div className="flex flex-col px-10 xl:grid-cols-4 xl:px-50 md:grid md:grid-cols-2 md:px-20 lg:px-30 gap-8 overflow-hidden ">
           {Category2.map((item, index) => {
             return (
               <CategoryItem2
@@ -49,8 +61,11 @@ export const Feature2 = () => {
           })}
         </div>
 
-        <div className="w-full flex justify-center items-center mt-6">
-          <div className="w-[75vw]  flex items-center gap-2">
+        <div className="w-full flex mt-6 ">
+
+
+          {/* here */}
+          <div className=" flex items-center gap-2 px-10 md:px-20 lg:px-30 xl:px-50">
             <div className="w-[60px] h-[40px] bg-white flex items-center justify-center shadow-2xl rounded-full text-black cursor-pointer ">
               <img src={left_arrow} alt="" />
             </div>
@@ -61,6 +76,8 @@ export const Feature2 = () => {
         </div>
         
       </div>
+      {/* </div> */}
+      
     </>
   );
 };
