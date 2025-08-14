@@ -15,7 +15,7 @@ export const VillaOne = () => {
           className="h-[700px]  flex-1 w-full rounded-[15px]"
         >
           <div className="flex pt-6 pl-6 gap-3">
-            <p className="text-[13px] rounded-full bg-[#1F4B43] px-3 py-[3px] cursor-pointer">
+            <p className="text-[13px] text-white rounded-full bg-[#1F4B43] px-3 py-[3px] cursor-pointer">
               FOR SALE
             </p>
 

@@ -12,10 +12,10 @@ export const Exclusive = () => {
     <div className="flex items-center justify-center bg-[#2D3A4F] py-30">
       <div className="w-[75vw]">
         <div className="flex flex-col items-center justify-center py-6">
-          <p className="font-500 text-[40px] leading-[52px]">
+          <p className="font-500 text-[40px] leading-[52px] text-white">
             Exclusive Properties
           </p>
-          <p className="text-[17px] font-400 leading-[32.3px]">
+          <p className="text-[17px] font-400 leading-[32.3px] text-white">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         </div>
@@ -25,7 +25,7 @@ export const Exclusive = () => {
             className="h-[700px] xl:h-[700px] bg-cover bg-no-repeat xl:flex-1  rounded-[15px]"
           >
             <div className="flex pt-6 pl-6 gap-3">
-              <p className="text-[13px] rounded-full bg-[#1F4B43] px-3 py-[3px] cursor-pointer">
+              <p className="text-[13px] text-white rounded-full bg-[#1F4B43] px-3 py-[3px] cursor-pointer">
                 FOR SALE
               </p>
 

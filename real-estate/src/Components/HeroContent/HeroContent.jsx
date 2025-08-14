@@ -6,12 +6,12 @@ export const HeroContent = () => {
   return (
       <div className="flex justify-center py-[220px]">
         <div className="px-4 md:w-[75vw]  flex flex-col gap-3">
-          <h1 className="text-[60px] font-bold lg:w-[35vw] leading-[60px] tracking-wider pt-5">
+          <h1 className="text-[60px] font-bold lg:w-[35vw] leading-[60px] tracking-wider pt-5 text-white">
             The <span className="text-[#E7C873]">#1</span> site real estate
             professionals trust*
           </h1>
 
-          <p className="text-[16px] py-4">
+          <p className="text-[16px] py-4 text-white">
             From as low as $10 per day with limited time offer discounts
           </p>
 
